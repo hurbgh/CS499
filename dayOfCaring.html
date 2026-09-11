@@ -64,7 +64,17 @@
                     <legend>Contact Information</legend>
 
                     <!--Create the Contact Information form here-->
-                    
+                    <form action="https://example.com/apply" method="POST">
+                        <p>
+                            <label for="first"> First name:</label>
+                            <input type="text" name="first" id="first" placeholder="e.g., Joe">
+                        </p>
+                        <p>
+                            <label for="last">Last Name:</label>
+                            <input type="text" name="last" id="last" placeholder="e.g., Schmoe">
+                        </p>
+                        <button>Submit</button>
+                    </form>
                 </fieldset>
 
                 <fieldset>
@@ -75,18 +85,41 @@
                     <!-- Radio Buttons Widget (Single Choice) -->
                     <p>Attending Kickoff Breakfast? (Radio Button - Choose One):</p>
                     <p>
-                        <!--Complete code here-->
+                        <input type="radio" checked name="attendingTrue" value="Yes, attending Kickoff Breakfast at Old National Plaza" id="yesAttending">
+                        <label for="yesAttending">Yes, attending Kickoff Breakfast at Old National Plaza</label>
+                        <br>
+                        <input type="radio" name="attendingFalse" value="No, reporting directly to volunteer service site" id="noAttending">
+                        <label for="noAttending">No, reporting directly to volunteer service site</label>
                     </p>
 
                     <!-- Checkbox Widgets (Multiple Choice) -->
                     <p>Preferred Volunteer Work Types (Checkbox - Choose Multiple):</p>
                     <p>
-                        <!--Complete code here-->
+                        <input type="checkbox" checked name="landscaping" id="landscaping">
+                        <label for="landscaping">Landscaping & Outdoor Maintenance</label>
+                        
+                        <br>
+                        <input type="checkbox" name="painting" id="painting">
+                        <label for="painting"> Painting & Facility Maintenance</label>
+                        
+                        <br>
+                        <input type="checkbox" name="cleaning" id="cleaning">
+                        <label for="cleaning">Cleaning & Reorganization</label>
+                        
+                        <br>
+                        <input type="checkbox" name="preschool" id="preschool">
+                        <label for="preschool">Preschool & Youth Activities Support</label>
+                        
+                        <br>
                     </p>
 
                     <!-- Select Dropdown Menu -->
                     <p>
-                        <!--Complete code here-->
+                        <label for="countySelect">Preferred County:</label>
+                        <select name="countyselect">
+                            <option value="Vanderbourgh County">Vanderbourgh County</option>
+                            <option value="Warrick county">Warrick county</option>
+                        </select>
                     </p>
                 </fieldset>
 
@@ -105,7 +138,7 @@
                 <h3>Past News Coverage: Annual Day of Caring </h3>
                 <p>Watch the Eyewitness News WEHT/WTVW report highlighting volunteers during a past Day of Caring event:</p>
                 <!-- Embedd this YouTube video: https://www.youtube.com/watch?v=g0rhgqlObuI here -->
-                
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/g0rhgqlObuI?si=zIq8iXCFcs4wZC-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </article>
         </section>
 

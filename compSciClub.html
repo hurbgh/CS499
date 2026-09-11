@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science Club</title>
+</head>
+<body>
+    <header>
+        <h1>Computer Science Club</h1>
+    </header>
+    <main>
+        <section id="aboutus">
+    <h2>About Us</h2>
+    <p>Hi there! We are the computer science club! The goal of this club is to promote computer science knowledge like programming, research,
+        hold talks, and prepare for programming contests! We are open to cs majors, and other majors too. We recommend you review and learn
+        some programming basics however as a non cs major. Below is the time table of when we meet, a form to join us, and a video of the shortest
+        recorded time it ever took to solve an International Collegiate Programming contest Problem! To sign up, fill out the form below and then click
+        submit. Our meeting room is KC228.
+    </p>
+    </section>
+    <section id="schedule">
+    <table border="1">
+        <caption>CS Club Meeting Timetable</caption>
+        <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Wednesday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <th>4:00-5:00</th>
+            <td colspan="3">Research discussion,talk about your research</td>
+        </tr>
+        <tr>
+            <th>5:00-6:00</th>
+            <td colspan="2">Practise Programming and Discussions</td>
+            <td rowspan="2">Talks/Conferences</td>
+        </tr>
+        <tr><th>6:00-7:00</th></tr>
+    </table>
+</section>
+<br>
+    <section id="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jxB7SUFy428?si=v3AaQ6hI2HelS_JW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+<br>
+<section id="signup">
+<h2>CS Club sign up form</h2>
+<p>Fill out the form below to sign up in order to join the CS club. You will recieve a welcome email,
+    and some more details of what the club is doing so far. We will email you meeting reminders.
+</p>
+<br>
+<form>
+    <div>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname">
+    </div>
+    <br>
+
+    <div>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+    </div>
+    <br>
+
+    <div>
+        <label for="email">Email address (school email):</label><br>
+        <input type="email" id="email" name="email">
+    </div>
+    <br>
+
+    <div>
+        <p><strong>Year in school:</strong></p>
+        <input type="radio" id="firstyear" name="whatyear" value="firstyear">
+        <label for="firstyear">First Year</label><br>
+
+        <input type="radio" id="secondyear" name="whatyear" value="secondyear">
+        <label for="secondyear">Second Year</label><br>
+
+        <input type="radio" id="thirdyear" name="whatyear" value="thirdyear">
+        <label for="thirdyear">Third Year</label><br>
+
+        <input type="radio" id="fourthyear" name="whatyear" value="fourthyear">
+        <label for="fourthyear">Fourth Year</label>
+    </div>
+    <br>
+
+    <!-- Corrected type="signup" to type="submit" so the button works, AI helped me, I did not understand syntax-->
+    <input type="submit" value="Sign up">
+</form>
+    
+</section>
+</main>
+    <script>
+        alert("Notice: We have changed rooms, but still are unsure. As of now go to KC 241. We will let you know if we switch back.");
+    </script><!--AI disclosure, I had to get help from AI to write this annoying javascript and get it to work-->
+</body>
+</html>
